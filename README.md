@@ -77,11 +77,19 @@
 | [**오늘뷔페**](https://oneulbuffet.com) | 뷔페·구내식당 지도 |
 | [**EVCar**](https://evcar.dev) | 전기차 충전소 지도 |
 | [**편딜**](https://pyeondeal.com) | 편의점 할인 정보 |
-| [**폴리시하눈**](https://policyhanun.kr) | 정부 정책 모아보기 |
+| [**정책한눈**](https://policyhanun.kr) | 정부 정책 모아보기 |
 | [**한산**](https://hansan.app) | 서울 실시간 혼잡도 지도 |
 | [**모기지수 지도**](https://mosquito-index-map.ictechgy.workers.dev) | 벌레·해충 정보 지도 |
 | [**Observed**](https://observed.live) | AI 툴·인프라 실시간 상태 모니터링 |
-| [**Storage Medic**](https://storage-medic.pages.dev) | AI와 함께 만든 macOS 앱 |
+
+### 🖥️ macOS 앱
+
+> AI와 함께 만든 macOS 앱입니다.
+
+| 앱 | 설명 |
+| :--- | :--- |
+| [**Storage Medic**](https://storage-medic.pages.dev/products/storage-medic/) | 저장공간 정리 앱 |
+| [**Lumadeck**](https://storage-medic.pages.dev/products/lumadeck/) | 디스플레이 밝기·명도 조절 앱 |
 
 ### 🛠️ 개발자 도구 (Open Source)
 
