@@ -21,3 +21,6 @@
 .env
 .env.*
 !.env.example
+
+# 로컬 작업 문서 (공개 프로필 레포에 포함하지 않음)
+HANDOFF.md
