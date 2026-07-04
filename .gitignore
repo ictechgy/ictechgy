@@ -1,0 +1,23 @@
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+._*
+.Spotlight-V100
+.Trashes
+
+# 에디터 / IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OMC 및 로컬 도구 상태 (공개 레포에 포함하지 않음)
+.omc/
+
+# 로그 / 환경 변수
+*.log
+.env
+.env.*
+!.env.example
