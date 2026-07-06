@@ -81,6 +81,7 @@
 | [**한산**](https://hansan.app) | 서울 실시간 혼잡도 지도 |
 | [**모기지수 지도**](https://mosquito-index-map.ictechgy.workers.dev) | 벌레·해충 정보 지도 |
 | [**Observed**](https://observed.live) | AI 툴·인프라 실시간 상태 모니터링 |
+| [**Coden Apps**](https://coden.kr) | Storage Medic·Nits macOS 앱 배포 도메인 |
 
 ### 🖥️ macOS 앱
 
@@ -88,17 +89,18 @@
 
 | 앱 | 설명 |
 | :--- | :--- |
-| [**Storage Medic**](https://storage-medic.pages.dev/products/storage-medic/) | 저장공간 정리 앱 |
-| [**Lumadeck**](https://storage-medic.pages.dev/products/lumadeck/) | 디스플레이 밝기·명도 조절 앱 |
+| [**Storage Medic**](https://coden.kr/products/storage-medic/) | 저장공간 정리 앱 |
+| [**Nits**](https://coden.kr/products/nits/) | 디스플레이 밝기·색감 조절 앱 |
 
 ### 🛠️ 개발자 도구 (Open Source)
 
 | 도구 | 설명 |
 | :--- | :--- |
-| [**light_terminal**](https://github.com/ictechgy/light_terminal) | tmux를 대체하는 영속 세션 관리 툴 |
+| [**light_terminal**](https://github.com/ictechgy/light_terminal) | tmux 대체가 아닌 가벼운 영속 세션 툴 |
 | [**multi-account-tool**](https://github.com/ictechgy/multi-account-tool) | CLI 기반 AI 다중 계정 관리 툴 |
 | [**context-guard**](https://github.com/ictechgy/context-guard) | Claude 세션 토큰 절약 툴 |
 | [**odpeek**](https://github.com/ictechgy/odpeek) | Open Design 원격 세션 도우미 툴 |
+| [**design-harness**](https://github.com/ictechgy/design-harness) | AI 제작 UI를 증거 기반으로 검수하는 디자인 QA 하네스 |
 | [**understatus**](https://github.com/ictechgy/understatus) | AI 툴 사용량 정보 표시 툴 |
 
 <br/>
