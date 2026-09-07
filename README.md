@@ -81,6 +81,31 @@
 | [**isthmus**](https://github.com/ictechgy/isthmus) | ![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white) | Joins the graphs above across language boundaries — catches Flutter `MethodChannel` calls (Dart ↔ Swift) that per-language tools miss; React Native support planned |
 | [**vecdiff**](https://github.com/ictechgy/vecdiff) | ![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white) | Diffs two embedding-index snapshots for vector-DB migrations and index audits — local, numpy-only, CI-gateable |
 
+<details>
+<summary><b>More tools</b> &nbsp;·&nbsp; <sub>8 more — for AI coding agents and iOS engineering, click to expand</sub></summary>
+
+<br/>
+
+**🤖 For AI coding agents** — deterministic, local, no LLM in the loop
+
+| Tool | Platform | Description |
+| :--- | :--- | :--- |
+| [**joinery**](https://github.com/ictechgy/joinery) | ![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white) | The linker for agent skill stacks — extracts each skill's implicit CLI / MCP / client-feature dependencies, dry-fits them against your machine, locks and compiles per-agent configs |
+| [**riskgate**](https://github.com/ictechgy/riskgate) | ![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white) | One YAML policy that decides what your coding agent may do — allow, prompt, or deny every tool call, portable across agent CLIs, zero dependencies |
+| [**yield-audit**](https://github.com/ictechgy/yield-audit) | ![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white) | Outcome accounting for AI coding agents: what survived, what it cost, what was wasted — includes an AI rework-rate lens for phantom productivity |
+| [**epitaph**](https://github.com/ictechgy/epitaph) | ![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white) | A repo-scoped ledger of rejected agent attempts — structured tombstones for rolled-back patches, consulted before the next agent retries the same path |
+| [**agent2perfetto**](https://github.com/ictechgy/agent2perfetto) | ![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white) | Converts Claude Code session logs into Perfetto trace JSON — view agent sessions as timelines, tool slices, and context / cost counters |
+
+**📱 For iOS engineering**
+
+| Tool | Platform | Description |
+| :--- | :--- | :--- |
+| [**locus**](https://github.com/ictechgy/locus) | ![Swift](https://img.shields.io/badge/Swift-F05138?style=flat-square&logo=swift&logoColor=white) | Where every UI element lives in source — a static traceability map from iOS accessibility elements to Swift code; CLI + MCP server |
+| [**strictmigrate**](https://github.com/ictechgy/strictmigrate) | ![Swift](https://img.shields.io/badge/Swift-F05138?style=flat-square&logo=swift&logoColor=white) | Delegates a Swift 6 strict-concurrency migration to agents — the compiler is the judge, a journal is the single source of truth; spans the KMP boundary |
+| [**coroner**](https://github.com/ictechgy/coroner) | ![Swift](https://img.shields.io/badge/Swift-F05138?style=flat-square&logo=swift&logoColor=white) | Local post-mortem triage for iOS telemetry (.ips + MetricKit) — symbolicate, cluster, version-journal, and expose it to coding agents over MCP |
+
+</details>
+
 ### 🖥️ macOS Apps
 
 > Native macOS apps, built together with AI. Distributed at [coden.kr](https://coden.kr).
