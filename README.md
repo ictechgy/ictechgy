@@ -1,10 +1,10 @@
 <div align="center">
 
-<h1>안녕하세요, Coden(코든) 입니다 👋</h1>
+<h1>Hi, I'm Coden 👋</h1>
 
-<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=500&size=22&pause=1000&color=5B8DEF&center=true&vCenter=true&width=460&lines=iOS+Developer;Web+%26+App+Builder;Building+with+AI" alt="Typing SVG" />
+<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=500&size=22&pause=1000&color=5B8DEF&center=true&vCenter=true&width=460&lines=iOS+Developer;Developer+Tools+Builder;Building+with+AI" alt="Typing SVG" />
 
-<p>🔍 깊게 파고들고, 배운 것을 나누는 걸 좋아하는 개발자 &nbsp;·&nbsp; 🤖 요즘은 AI와 함께 만듭니다</p>
+<p>🔍 I like digging deep and sharing what I learn &nbsp;·&nbsp; 🤖 These days I build together with AI</p>
 
 <a href="mailto:ictechgy@gmail.com"><img src="https://img.shields.io/badge/Gmail-EA4335?style=flat-square&logo=gmail&logoColor=white" alt="Gmail" /></a>
 <img src="https://komarev.com/ghpvc/?username=ictechgy&style=flat-square&color=5B8DEF&label=Profile+Views" alt="Profile Views" />
@@ -15,10 +15,10 @@
 
 ## 👀 About Me
 
-- 🧩 **iOS 앱**을 만들며, 모듈화와 아키텍처를 깊게 파고드는 걸 좋아합니다
-- 🛠️ 필요한 서비스는 **직접 만듭니다** — 웹, 앱, 그리고 개발용 CLI 도구까지
-- 🤖 **AI와 함께** 빠르게 프로토타이핑하고 제품으로 완성합니다
-- ✍️ 배운 것은 **기록하고 나누는** 걸 좋아합니다
+- 🧩 I build **iOS apps** and enjoy going deep on modularization and architecture
+- 🛠️ When I need a tool, I **build it myself** — from developer CLIs to full products
+- 🤖 I prototype fast **with AI** and turn ideas into shipped software
+- ✍️ I like to **write down and share** what I learn along the way
 
 <br/>
 
@@ -67,41 +67,48 @@
 
 ## 🚀 Projects & Products
 
-> 직접 기획하고 만든 웹 서비스와 개발자 도구들입니다.
+> Things I designed, built, and shipped on my own.
 
-### 🌐 웹 서비스 & 앱
+### 🛠️ Developer Tools (Open Source)
 
-| 서비스 | 설명 |
+> Static analysis tools that turn a codebase into a **queryable dependency graph** — dead code, cycles, layering rules, and architecture metrics as queries over one graph.
+
+| Tool | Platform | Description |
+| :--- | :--- | :--- |
+| [**cartograph**](https://github.com/ictechgy/cartograph) | ![Swift](https://img.shields.io/badge/Swift-F05138?style=flat-square&logo=swift&logoColor=white) | Queryable dependency graph for Swift / iOS codebases, built on IndexStoreDB |
+| [**kartograph**](https://github.com/ictechgy/kartograph) | ![Kotlin](https://img.shields.io/badge/Kotlin-7F52FF?style=flat-square&logo=kotlin&logoColor=white) | Explainable dependency graphs and dead-code analysis for Kotlin / Android |
+| [**dartograph**](https://github.com/ictechgy/dartograph) | ![Dart](https://img.shields.io/badge/Dart-0175C2?style=flat-square&logo=dart&logoColor=white) | Evidence-backed dependency graph analysis for Dart / Flutter codebases |
+| [**isthmus**](https://github.com/ictechgy/isthmus) | ![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white) | Joins the graphs above across language boundaries — catches Flutter `MethodChannel` calls (Dart ↔ Swift) that per-language tools miss; React Native support planned |
+| [**vecdiff**](https://github.com/ictechgy/vecdiff) | ![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white) | Diffs two embedding-index snapshots for vector-DB migrations and index audits — local, numpy-only, CI-gateable |
+
+### 🖥️ macOS Apps
+
+> Native macOS apps, built together with AI. Distributed at [coden.kr](https://coden.kr).
+
+| App | Description |
 | :--- | :--- |
-| [**PickMeJobs**](https://www.pickmejobs.kr) | 채용 공고 모아보기 |
-| [**오늘뷔페**](https://oneulbuffet.com) | 뷔페·구내식당 지도 |
-| [**EVCar**](https://evcar.dev) | 전기차 충전소 지도 |
-| [**편딜**](https://pyeondeal.com) | 편의점 할인 정보 |
-| [**정책한눈**](https://policyhanun.kr) | 정부 정책 모아보기 |
-| [**한산**](https://hansan.app) | 서울 실시간 혼잡도 지도 |
-| [**모기지수 지도**](https://mosquito-index-map.ictechgy.workers.dev) | 벌레·해충 정보 지도 |
-| [**Observed**](https://observed.live) | AI 툴·인프라 실시간 상태 모니터링 |
-| [**Coden Apps**](https://coden.kr) | Storage Medic·Nits macOS 앱 배포 도메인 |
+| [**Storage Medic**](https://coden.kr/products/storage-medic/) | Find and clean up what's eating your disk space |
+| [**Nits**](https://coden.kr/products/nits/) | Fine-tune display brightness and color temperature |
 
-### 🖥️ macOS 앱
+### 🌐 Web & Mobile Services
 
-> AI와 함께 만든 macOS 앱입니다.
+<details>
+<summary><b>Side projects I've shipped</b> &nbsp;·&nbsp; <sub>click to expand</sub></summary>
 
-| 앱 | 설명 |
+<br/>
+
+| Service | Description |
 | :--- | :--- |
-| [**Storage Medic**](https://coden.kr/products/storage-medic/) | 저장공간 정리 앱 |
-| [**Nits**](https://coden.kr/products/nits/) | 디스플레이 밝기·색감 조절 앱 |
+| [**PickMeJobs**](https://www.pickmejobs.kr) | Job postings, aggregated in one place |
+| [**Oneul Buffet**](https://oneulbuffet.com) | Map of buffets and company cafeterias |
+| [**EVCar**](https://evcar.dev) | EV charging station map |
+| [**PyeonDeal**](https://pyeondeal.com) | Convenience store deals and promotions |
+| [**PolicyHanun**](https://policyhanun.kr) | Government policies at a glance |
+| [**Hansan**](https://hansan.app) | Real-time crowd density map of Seoul |
+| [**Mosquito Index Map**](https://mosquito-index-map.ictechgy.workers.dev) | Map of mosquito and pest activity |
+| [**Observed**](https://observed.live) | Real-time status monitoring for AI tools and infrastructure |
 
-### 🛠️ 개발자 도구 (Open Source)
-
-| 도구 | 설명 |
-| :--- | :--- |
-| [**light_terminal**](https://github.com/ictechgy/light_terminal) | tmux 대체가 아닌 가벼운 영속 세션 툴 |
-| [**multi-account-tool**](https://github.com/ictechgy/multi-account-tool) | CLI 기반 AI 다중 계정 관리 툴 |
-| [**context-guard**](https://github.com/ictechgy/context-guard) | Claude 세션 토큰 절약 툴 |
-| [**odpeek**](https://github.com/ictechgy/odpeek) | Open Design 원격 세션 도우미 툴 |
-| [**design-harness**](https://github.com/ictechgy/design-harness) | AI 제작 UI를 증거 기반으로 검수하는 디자인 QA 하네스 |
-| [**understatus**](https://github.com/ictechgy/understatus) | AI 툴 사용량 정보 표시 툴 |
+</details>
 
 <br/>
 
@@ -132,7 +139,7 @@
 
 <br/><br/>
 
-<sub>Thanks for stopping by! 궁금한 점은 편하게 메일 주세요 😊</sub>
+<sub>Thanks for stopping by! Feel free to reach out by email 😊</sub>
 
 </div>
 
