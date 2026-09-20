@@ -161,16 +161,11 @@
 
 <div align="center">
 
-<img height="165" src="https://github-readme-stats.vercel.app/api?username=ictechgy&show_icons=true&include_all_commits=true&count_private=true&hide_border=true&title_color=5B8DEF&icon_color=5B8DEF" alt="GitHub Stats" />
-<img height="165" src="https://github-readme-stats.vercel.app/api/top-langs/?username=ictechgy&layout=compact&langs_count=8&hide_border=true&title_color=5B8DEF" alt="Top Languages" />
+<img src="github-metrics.svg" alt="Metrics — stats, languages, and commit calendar" />
 
 <br/>
 
 <img src="https://github-readme-streak-stats.herokuapp.com/?user=ictechgy&hide_border=true&ring=5B8DEF&fire=5B8DEF&currStreakLabel=5B8DEF" alt="Streak" />
-
-<br/>
-
-<img src="https://github-readme-activity-graph.vercel.app/graph?username=ictechgy&bg_color=ffffff&color=5B8DEF&line=5B8DEF&point=5B8DEF&area=true&hide_border=true" alt="Activity Graph" />
 
 </div>
 
