@@ -77,9 +77,21 @@
 | :--- | :--- | :--- |
 | [**cartograph**](https://github.com/ictechgy/cartograph) | ![Swift](https://img.shields.io/badge/Swift-F05138?style=flat-square&logo=swift&logoColor=white) | Queryable dependency graph for Swift / iOS codebases, built on IndexStoreDB |
 | [**kartograph**](https://github.com/ictechgy/kartograph) | ![Kotlin](https://img.shields.io/badge/Kotlin-7F52FF?style=flat-square&logo=kotlin&logoColor=white) | Explainable dependency graphs and dead-code analysis for Kotlin / Android |
+| [**gartograph**](https://github.com/ictechgy/gartograph) | ![Go](https://img.shields.io/badge/Go-00ADD8?style=flat-square&logo=go&logoColor=white) | Queryable dependency graph for Go codebases — cycles, dead code, and layer rules as queries |
+| [**rustograph**](https://github.com/ictechgy/rustograph) | ![Rust](https://img.shields.io/badge/Rust-000000?style=flat-square&logo=rust&logoColor=white) | Queryable dependency graph for Rust / Cargo workspaces — cycles, dead code, and impact analysis as queries |
+| [**schemagraph**](https://github.com/ictechgy/schemagraph) | ![Rust](https://img.shields.io/badge/Rust-000000?style=flat-square&logo=rust&logoColor=white) | Dependency graphs for databases — catalogs and SQL bodies in, impact analysis, cycle detection, and architecture rules out |
+
+<details>
+<summary><b>Dart / Flutter & cross-language graphs</b> &nbsp;·&nbsp; <sub>dartograph + isthmus — the Dart/Flutter engine and the joiner that links graphs across language boundaries, click to expand</sub></summary>
+
+<br/>
+
+| Tool | Platform | Description |
+| :--- | :--- | :--- |
 | [**dartograph**](https://github.com/ictechgy/dartograph) | ![Dart](https://img.shields.io/badge/Dart-0175C2?style=flat-square&logo=dart&logoColor=white) | Evidence-backed dependency graph analysis for Dart / Flutter codebases |
 | [**isthmus**](https://github.com/ictechgy/isthmus) | ![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white) | Joins the graphs above across language boundaries — catches Flutter `MethodChannel` calls (Dart ↔ Swift) that per-language tools miss; React Native support planned |
-| [**schemagraph**](https://github.com/ictechgy/schemagraph) | ![Rust](https://img.shields.io/badge/Rust-000000?style=flat-square&logo=rust&logoColor=white) | Dependency graphs for databases — catalogs and SQL bodies in, impact analysis, cycle detection, and architecture rules out |
+
+</details>
 
 <details>
 <summary><b>More tools</b> &nbsp;·&nbsp; <sub>12 more — for AI coding agents, iOS engineering, and data tooling, click to expand</sub></summary>
