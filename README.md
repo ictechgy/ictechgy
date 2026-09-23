@@ -73,6 +73,10 @@
 
 > Static analysis tools that turn codebases — and database schemas — into a **queryable dependency graph** — dead code, cycles, impact analysis, layering rules, and architecture metrics as queries over one graph.
 
+<div align="center">
+<img src="graph-family.png" alt="The *graph tool family bird mascots" width="720" />
+</div>
+
 | Tool | Platform | Description |
 | :--- | :--- | :--- |
 | [**cartograph**](https://github.com/ictechgy/cartograph) | ![Swift](https://img.shields.io/badge/Swift-F05138?style=flat-square&logo=swift&logoColor=white) | Queryable dependency graph for Swift / iOS codebases, built on IndexStoreDB |
