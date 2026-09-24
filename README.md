@@ -93,7 +93,7 @@
 | Tool | Platform | Description |
 | :--- | :--- | :--- |
 | [**dartograph**](https://github.com/ictechgy/dartograph) | ![Dart](https://img.shields.io/badge/Dart-0175C2?style=flat-square&logo=dart&logoColor=white) | Evidence-backed dependency graph analysis for Dart / Flutter codebases |
-| [**isthmus**](https://github.com/ictechgy/isthmus) | ![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white) | Joins the graphs above across language boundaries — catches Flutter `MethodChannel` calls (Dart ↔ Swift) that per-language tools miss; React Native support planned |
+| [**isthmus**](https://github.com/ictechgy/isthmus) | ![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white) | Joins the graphs above across language boundaries — Flutter `MethodChannel`/Pigeon (Dart ↔ Swift/Kotlin) and React Native bridge calls that per-language tools miss, plus a `persistence` domain joining Go code to DB schemas via gartograph + schemagraph facts |
 
 </details>
 
