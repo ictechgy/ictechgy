@@ -69,9 +69,18 @@
 
 > Things I designed, built, and shipped on my own.
 
-### 🛠️ Developer Tools (Open Source)
+### 🏢 Organizations
 
-> Static analysis tools that turn codebases — and database schemas — into a **queryable dependency graph** — dead code, cycles, impact analysis, layering rules, and architecture metrics as queries over one graph.
+> [**haetae-robotics**](https://github.com/haetae-robotics) — Safety & security for physical AI: model output is treated as untrusted input before it ever reaches a robot.
+
+| Repo | Platform | Description |
+| :--- | :--- | :--- |
+| [**haetae**](https://github.com/haetae-robotics/haetae) | ![Rust](https://img.shields.io/badge/Rust-000000?style=flat-square&logo=rust&logoColor=white) ![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white) | A supervisory policy gate for AI-driven robots — every VLA / foundation-model action is allowed, slowed, or denied before it reaches the robot's own safety layer (pre-alpha) |
+| [**ataxia**](https://github.com/haetae-robotics/ataxia) | ![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white) | [derailment](https://github.com/ictechgy/derailment) for embodied agents — induces psychopathology-like behavioral distortions in robot policies in simulation and measures the degradation against a healthy baseline |
+
+### 🕸️ Graph Family
+
+> Static analysis tools that turn codebases and database schemas into a **queryable dependency graph**. Dead code, cycles, impact analysis, layering rules, and architecture metrics all become queries over one graph.
 
 <div align="center">
 <img src="graph-family.png" alt="The *graph tool family bird mascots gathered around a dependency graph" width="720" />
@@ -83,64 +92,84 @@
 | [**kartograph**](https://github.com/ictechgy/kartograph) | ![Kotlin](https://img.shields.io/badge/Kotlin-7F52FF?style=flat-square&logo=kotlin&logoColor=white) | Explainable dependency graphs and dead-code analysis for Kotlin / Android |
 | [**gartograph**](https://github.com/ictechgy/gartograph) | ![Go](https://img.shields.io/badge/Go-00ADD8?style=flat-square&logo=go&logoColor=white) | Queryable dependency graph for Go codebases — cycles, dead code, and layer rules as queries |
 | [**rustograph**](https://github.com/ictechgy/rustograph) | ![Rust](https://img.shields.io/badge/Rust-000000?style=flat-square&logo=rust&logoColor=white) | Queryable dependency graph for Rust / Cargo workspaces — cycles, dead code, and impact analysis as queries |
+| [**dartograph**](https://github.com/ictechgy/dartograph) | ![Dart](https://img.shields.io/badge/Dart-0175C2?style=flat-square&logo=dart&logoColor=white) | Evidence-backed dependency graph analysis for Dart / Flutter codebases |
 | [**schemagraph**](https://github.com/ictechgy/schemagraph) | ![Rust](https://img.shields.io/badge/Rust-000000?style=flat-square&logo=rust&logoColor=white) | Dependency graphs for databases — catalogs and SQL bodies in, impact analysis, cycle detection, and architecture rules out |
 
 <details>
-<summary><b>Dart / Flutter & cross-language graphs</b> &nbsp;·&nbsp; <sub>dartograph + isthmus — the Dart/Flutter engine and the joiner that links graphs across language boundaries, click to expand</sub></summary>
+<summary><b>Cross-language graphs</b> &nbsp;·&nbsp; <sub>isthmus links the graphs above across language boundaries, fed by TypeScript and Python producers · click to expand</sub></summary>
 
 <br/>
 
 | Tool | Platform | Description |
 | :--- | :--- | :--- |
-| [**dartograph**](https://github.com/ictechgy/dartograph) | ![Dart](https://img.shields.io/badge/Dart-0175C2?style=flat-square&logo=dart&logoColor=white) | Evidence-backed dependency graph analysis for Dart / Flutter codebases |
-| [**isthmus**](https://github.com/ictechgy/isthmus) | ![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white) | Joins the graphs above across language boundaries — Flutter `MethodChannel`/Pigeon (Dart ↔ Swift/Kotlin) and React Native bridge calls that per-language tools miss, plus a `persistence` domain joining Go code to DB schemas via gartograph + schemagraph facts |
+| [**isthmus**](https://github.com/ictechgy/isthmus) | ![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white) | Joins the graphs above where per-language tools stop — Flutter `MethodChannel`/Pigeon (Dart ↔ Swift/Kotlin) and React Native bridge calls, HTTP client ↔ server routes, and code ↔ DB-schema `persistence` links |
+| [**tsograph**](https://github.com/ictechgy/tsograph) | ![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white) | Feeds isthmus from TypeScript / JavaScript (Node) services — HTTP routes (Next.js, Express, Fastify, NestJS…), OpenAPI contracts, ORM relation facts, and call graphs |
+| [**pythograph**](https://github.com/ictechgy/pythograph) | ![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white) | Feeds isthmus from Python services — Django / DRF / Flask routes, Django & SQLAlchemy relation facts, and call graphs; parses with `ast` only, never imports your code |
 
 </details>
 
-<details>
-<summary><b>More tools</b> &nbsp;·&nbsp; <sub>12 more — for AI coding agents, iOS engineering, and data tooling, click to expand</sub></summary>
+### 🤖 AI Agent Tooling
 
-<br/>
-
-**🤖 For AI coding agents** — deterministic, local, no LLM in the loop
+> Tools for running AI coding agents safely and smoothly — sandboxing, policy gates, account switching, outcome accounting, and shared knowledge. Deterministic and local wherever possible.
 
 | Tool | Platform | Description |
 | :--- | :--- | :--- |
-| [**joinery**](https://github.com/ictechgy/joinery) | ![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white) | The linker for agent skill stacks — extracts each skill's implicit CLI / MCP / client-feature dependencies, dry-fits them against your machine, locks and compiles per-agent configs |
+| [**agentbelt**](https://github.com/ictechgy/agentbelt) | ![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white) | Confines AI coding agents on macOS to a single project directory — Seatbelt-enforced, kernel-tested |
+| [**exitzero**](https://github.com/ictechgy/exitzero) | ![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white) | Offline policy and verification gates for AI-assisted coding teams |
+| [**multi-account-tool**](https://github.com/ictechgy/multi-account-tool) | ![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white) | Switches between multiple AI CLI accounts (Claude Code, Codex, Gemini/Antigravity) from one TUI — Keychain-backed with automatic rollback |
+| [**knowledger**](https://github.com/ictechgy/knowledger) | ![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white) | Domain-scoped knowledge agreements for KBs, LLM wikis, and AI workflows — with a Hyperledger Fabric adapter |
+
+<details>
+<summary><b>More agent tools</b> &nbsp;·&nbsp; <sub>8 more — policies, skill stacks, session traces, and continuity, click to expand</sub></summary>
+
+<br/>
+
+| Tool | Platform | Description |
+| :--- | :--- | :--- |
+| [**joinery**](https://github.com/ictechgy/joinery) | ![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white) | The linker for agent skill stacks — extracts each skill's implicit CLI / MCP / client-feature dependencies, dry-fits them against your machine, then locks and compiles per-agent configs |
 | [**riskgate**](https://github.com/ictechgy/riskgate) | ![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white) | One YAML policy that decides what your coding agent may do — allow, prompt, or deny every tool call, portable across agent CLIs, zero dependencies |
 | [**yield-audit**](https://github.com/ictechgy/yield-audit) | ![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white) | Outcome accounting for AI coding agents: what survived, what it cost, what was wasted — includes an AI rework-rate lens for phantom productivity |
 | [**epitaph**](https://github.com/ictechgy/epitaph) | ![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white) | A repo-scoped ledger of rejected agent attempts — structured tombstones for rolled-back patches, consulted before the next agent retries the same path |
 | [**agent2perfetto**](https://github.com/ictechgy/agent2perfetto) | ![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white) | Converts Claude Code session logs into Perfetto trace JSON — view agent sessions as timelines, tool slices, and context / cost counters |
 | [**packet-ask**](https://github.com/ictechgy/packet-ask) | ![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white) | Sends only a scrubbed packet — never the raw repo — to personal coding-subscription subagents for review and second opinions |
 | [**relay-continuity**](https://github.com/ictechgy/relay-continuity) | ![Rust](https://img.shields.io/badge/Rust-000000?style=flat-square&logo=rust&logoColor=white) | Local, privacy-first continuity for AI-assisted work — evidence-backed resume context without storing code, chats, or telemetry |
-| [**understatus**](https://github.com/ictechgy/understatus) | ![Rust](https://img.shields.io/badge/Rust-000000?style=flat-square&logo=rust&logoColor=white) | A calm macOS statusline addon for Claude Code — live CPU, memory, battery, disk, network & AI-session info, with selectable themes |
+| [**understatus**](https://github.com/ictechgy/understatus) | ![Rust](https://img.shields.io/badge/Rust-000000?style=flat-square&logo=rust&logoColor=white) | A calm macOS statusline addon for Claude Code — live CPU, memory, battery, disk, network, and AI-session info, with selectable themes |
 
-**📱 For iOS engineering**
+</details>
+
+### 🧪 Research
+
+> Experiments that deliberately break a model's reasoning — and measure exactly how it breaks.
+
+| Project | Platform | Description |
+| :--- | :--- | :--- |
+| [**derailment**](https://github.com/ictechgy/derailment) | ![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white) | Induces psychopathology-like cognitive distortions in LLMs by manipulating attention, salience, valence, and arousal, then scores the result against a healthy baseline — emulation, not diagnosis |
+
+### 🧰 More Developer Tools
+
+<details>
+<summary><b>Mobile engineering, data, infra & testing</b> &nbsp;·&nbsp; <sub>7 more, click to expand</sub></summary>
+
+<br/>
+
+**📱 For iOS & mobile engineering**
 
 | Tool | Platform | Description |
 | :--- | :--- | :--- |
 | [**locus**](https://github.com/ictechgy/locus) | ![Swift](https://img.shields.io/badge/Swift-F05138?style=flat-square&logo=swift&logoColor=white) | Where every UI element lives in source — a static traceability map from iOS accessibility elements to Swift code; CLI + MCP server |
 | [**strictmigrate**](https://github.com/ictechgy/strictmigrate) | ![Swift](https://img.shields.io/badge/Swift-F05138?style=flat-square&logo=swift&logoColor=white) | Delegates a Swift 6 strict-concurrency migration to agents — the compiler is the judge, a journal is the single source of truth; spans the KMP boundary |
-| [**coroner**](https://github.com/ictechgy/coroner) | ![Swift](https://img.shields.io/badge/Swift-F05138?style=flat-square&logo=swift&logoColor=white) | Local post-mortem triage for iOS telemetry (.ips + MetricKit) — symbolicate, cluster, version-journal, and expose it to coding agents over MCP |
+| [**coroner**](https://github.com/ictechgy/coroner) | ![Swift](https://img.shields.io/badge/Swift-F05138?style=flat-square&logo=swift&logoColor=white) | Local post-mortem triage for iOS telemetry (.ips + MetricKit) — symbolicates, clusters, and journals crashes by version, then exposes them to coding agents over MCP |
+| [**reproof**](https://github.com/ictechgy/reproof) | ![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white) | Self-hosted mobile QA — records issues as video + actions + fixtures, replays them deterministically on Android / iOS, and re-verifies AI repair candidates against the approved recording |
 
-**🗄️ For data & infra**
+**🗄️ For data, infra & testing**
 
 | Tool | Platform | Description |
 | :--- | :--- | :--- |
 | [**vecdiff**](https://github.com/ictechgy/vecdiff) | ![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white) | Diffs two embedding-index snapshots for vector-DB migrations and index audits — local, numpy-only, CI-gateable |
+| [**localqpu**](https://github.com/ictechgy/localqpu) | ![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white) | A local emulator of the IBM Quantum Platform API — a "test mode" for code that calls a quantum cloud: no queues, no cost, and any failure you want to simulate |
+| [**lychgate**](https://github.com/ictechgy/lychgate) | ![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white) | A deterministic custodian for repos you stopped tending — merges provably boring Dependabot PRs and holds the rest at the gate; no LLM, no admin or workflow permissions |
 
 </details>
-
-### 🤖 AI Agent Infrastructure
-
-> Tools for running AI coding agents safely and smoothly — sandboxing, policy gates, account switching, and shared knowledge.
-
-| Tool | Platform | Description |
-| :--- | :--- | :--- |
-| [**agentbelt**](https://github.com/ictechgy/agentbelt) | ![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white) | Runs AI coding agents on macOS confined to one project directory — Seatbelt-enforced, kernel-tested |
-| [**exitzero**](https://github.com/ictechgy/exitzero) | ![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white) | Offline policy and verification gates for AI-assisted coding teams |
-| [**multi-account-tool**](https://github.com/ictechgy/multi-account-tool) | ![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white) | Switches between multiple AI CLI accounts (Claude Code, Codex, Gemini/Antigravity) from one TUI — Keychain-backed with automatic rollback |
-| [**knowledger**](https://github.com/ictechgy/knowledger) | ![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white) | Domain-scoped knowledge agreements for KBs, LLM wikis, and AI workflows — with a Hyperledger Fabric adapter |
 
 ### 🖥️ macOS Apps
 
