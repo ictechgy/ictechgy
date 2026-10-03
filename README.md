@@ -69,6 +69,15 @@
 
 > Things I designed, built, and shipped on my own.
 
+### 🏢 Organizations
+
+> [**haetae-robotics**](https://github.com/haetae-robotics) — Safety & security for physical AI: model output is treated as untrusted input before it ever reaches a robot.
+
+| Repo | Platform | Description |
+| :--- | :--- | :--- |
+| [**haetae**](https://github.com/haetae-robotics/haetae) | ![Rust](https://img.shields.io/badge/Rust-000000?style=flat-square&logo=rust&logoColor=white) ![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white) | A supervisory policy gate for AI-driven robots — every VLA / foundation-model action is allowed, slowed, or denied before it reaches the robot's own safety layer (pre-alpha) |
+| [**ataxia**](https://github.com/haetae-robotics/ataxia) | ![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white) | [derailment](https://github.com/ictechgy/derailment) for embodied agents — induces psychopathology-like behavioral distortions in robot policies in simulation, and measures the degradation against a healthy baseline |
+
 ### 🕸️ Graph Family (Open Source)
 
 > Static analysis tools that turn codebases — and database schemas — into a **queryable dependency graph** — dead code, cycles, impact analysis, layering rules, and architecture metrics as queries over one graph.
@@ -87,13 +96,15 @@
 | [**schemagraph**](https://github.com/ictechgy/schemagraph) | ![Rust](https://img.shields.io/badge/Rust-000000?style=flat-square&logo=rust&logoColor=white) | Dependency graphs for databases — catalogs and SQL bodies in, impact analysis, cycle detection, and architecture rules out |
 
 <details>
-<summary><b>Cross-language graphs</b> &nbsp;·&nbsp; <sub>isthmus — the joiner that links the graphs above across language boundaries, click to expand</sub></summary>
+<summary><b>Cross-language graphs</b> &nbsp;·&nbsp; <sub>isthmus — the joiner that links the graphs above across language boundaries — plus its TypeScript and Python producers, click to expand</sub></summary>
 
 <br/>
 
 | Tool | Platform | Description |
 | :--- | :--- | :--- |
 | [**isthmus**](https://github.com/ictechgy/isthmus) | ![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white) | Joins the graphs above across language boundaries — Flutter `MethodChannel`/Pigeon (Dart ↔ Swift/Kotlin) and React Native bridge calls that per-language tools miss, plus a `persistence` domain joining Go code to DB schemas via gartograph + schemagraph facts |
+| [**tsograph**](https://github.com/ictechgy/tsograph) | ![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white) | Feeds isthmus from TypeScript / JavaScript (Node) services — HTTP routes (Next.js, Express, Fastify, NestJS…), OpenAPI contracts, ORM relation facts, and call graphs |
+| [**pythograph**](https://github.com/ictechgy/pythograph) | ![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white) | Feeds isthmus from Python services — Django / DRF / Flask routes, Django & SQLAlchemy relation facts, and call graphs; parses with `ast` only, never imports your code |
 
 </details>
 
@@ -126,26 +137,37 @@
 
 </details>
 
+### 🧪 Research
+
+> Experiments that deliberately break a model's reasoning — and measure exactly how it breaks.
+
+| Project | Platform | Description |
+| :--- | :--- | :--- |
+| [**derailment**](https://github.com/ictechgy/derailment) | ![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white) | Induces psychopathology-like cognitive distortions in LLMs by manipulating attention, salience, valence, and arousal — then scores the result against a healthy baseline. Emulation, not diagnosis |
+
 ### 🧰 More Developer Tools
 
 <details>
-<summary><b>iOS engineering, data & infra</b> &nbsp;·&nbsp; <sub>4 more, click to expand</sub></summary>
+<summary><b>Mobile engineering, data, infra & testing</b> &nbsp;·&nbsp; <sub>7 more, click to expand</sub></summary>
 
 <br/>
 
-**📱 For iOS engineering**
+**📱 For iOS & mobile engineering**
 
 | Tool | Platform | Description |
 | :--- | :--- | :--- |
 | [**locus**](https://github.com/ictechgy/locus) | ![Swift](https://img.shields.io/badge/Swift-F05138?style=flat-square&logo=swift&logoColor=white) | Where every UI element lives in source — a static traceability map from iOS accessibility elements to Swift code; CLI + MCP server |
 | [**strictmigrate**](https://github.com/ictechgy/strictmigrate) | ![Swift](https://img.shields.io/badge/Swift-F05138?style=flat-square&logo=swift&logoColor=white) | Delegates a Swift 6 strict-concurrency migration to agents — the compiler is the judge, a journal is the single source of truth; spans the KMP boundary |
 | [**coroner**](https://github.com/ictechgy/coroner) | ![Swift](https://img.shields.io/badge/Swift-F05138?style=flat-square&logo=swift&logoColor=white) | Local post-mortem triage for iOS telemetry (.ips + MetricKit) — symbolicate, cluster, version-journal, and expose it to coding agents over MCP |
+| [**reproof**](https://github.com/ictechgy/reproof) | ![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white) | Self-hosted mobile QA — records issues as video + actions + fixtures, replays them deterministically on Android / iOS, and re-verifies AI repair candidates against the approved recording |
 
-**🗄️ For data & infra**
+**🗄️ For data, infra & testing**
 
 | Tool | Platform | Description |
 | :--- | :--- | :--- |
 | [**vecdiff**](https://github.com/ictechgy/vecdiff) | ![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white) | Diffs two embedding-index snapshots for vector-DB migrations and index audits — local, numpy-only, CI-gateable |
+| [**localqpu**](https://github.com/ictechgy/localqpu) | ![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white) | A local emulator of the IBM Quantum Platform API — a "test mode" for code that calls a quantum cloud: no queues, no cost, and any failure you want to simulate |
+| [**lychgate**](https://github.com/ictechgy/lychgate) | ![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white) | A deterministic custodian for repos you stopped tending — merges provably boring Dependabot PRs and holds the rest at the gate; no LLM, no admin permission |
 
 </details>
 
