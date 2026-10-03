@@ -83,7 +83,7 @@
 > Static analysis tools that turn codebases and database schemas into a **queryable dependency graph**. Dead code, cycles, impact analysis, layering rules, and architecture metrics all become queries over one graph.
 
 <div align="center">
-<img src="graph-family.png" alt="The *graph tool family bird mascots gathered around a dependency graph" width="720" />
+<img src="graph-family.png" alt="The nine *graph family bird mascots — eight language producers on either side, the isthmus heron in the middle looking up at a dependency graph that flows into it" width="720" />
 </div>
 
 | Tool | Platform | Description |
